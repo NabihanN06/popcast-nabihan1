@@ -24,14 +24,15 @@
             fill="current-color" />
     </svg>
     <nav class="hidden lg:flex items-center gap-[58px]">
-        <a href="#" class="nav-link">Home</a>
-        <a href="#" class="nav-link">About</a>
-        <a href="#" class="nav-link">Category</a>
-        <a href="#" class="nav-link">Trending</a>
-        <a href="#" class="nav-link">Event</a>
+        <a href="#" class="hover:text-yellow-300">Home</a>
+        <a href="#" class="hover:text-yellow-300">About</a>
+        <a href="#" class="hover:text-yellow-300">Category</a>
+        <a href="#" class="hover:text-yellow-300">Trending</a>
+        <a href="#" class="hover:text-yellow-300">Event</a>
     </nav>
     <button class="flex lg:hidden border border-white py-2 px-4 rounded-md hover:bg-white/20">Menu</button>
 </header>
+<!-- MAIN PAGE -->
 <section class="p-8 sm:p-16 lg:px-10 lg:pt-[98px] lg:pb-[70px] relative">
     <div class="flex flex-col lg:flex-row justify-between">
         <h1 class="font-jakarta text-6xl sm:text-7xl lg:text-7xl font-semibold">
@@ -41,11 +42,8 @@
             Always get the latest updates from your favorite podcast, so you don't miss the latest stuff
         </p>
     </div>
-    <!-- xxxxxxxx -->
     <div class="flex flex-col lg:flex-row gap-10 lg:gap-0 justify-between lg:items-center mt-12">
-        <!-- left -->
         <div>
-            <!-- atas -->
             <div class="flex flex-col gap-3">
                 <div class="flex flex-row gap-3 items-center">
                     <div class="flex -space-x-5">
@@ -58,7 +56,6 @@
                 </div>
                 <p>Have listened to the podcast</p>
             </div>
-            <!-- bawah -->
             <div class="flex flex-col gap-6 mt-[72px]">
                 <div class="flex flex-col">
                     <b class="text-4xl font-semibold">500++</b>
@@ -70,10 +67,8 @@
                 </div>
             </div>
         </div>
-        <!-- right -->
         <div class="flex flex-col gap-5">
             <h3 class="text-2xl font-semibold">Top podcast of the week</h3>
-            <!-- items 1 -->
             <div class="flex flex-row gap-5 items-center">
                 <i class="font-semibold">01.</i>
                 <img src="asset/podcast1.png" alt="top-firts" class="w-20 aspect-square object-cover rounded-2xl">
@@ -82,7 +77,6 @@
                     <p>Host by <span class="text-mango">Mahameru</span></p>
                 </div>
             </div>
-            <!-- items 2 -->
             <div class="flex flex-row gap-5 items-center">
                 <i class="font-semibold">02.</i>
                 <img src="asset/podcast2.png" alt="top-firts" class="w-20 aspect-square object-cover rounded-2xl">
@@ -91,7 +85,6 @@
                     <p>Host by <span class="text-mango">Jonathan</span></p>
                 </div>
             </div>
-            <!-- items 3 -->
             <div class="flex flex-row gap-5 items-center">
                 <i class="font-semibold">03.</i>
                 <img src="asset/podcast3.png" alt="top-firts" class="w-20 aspect-square object-cover rounded-2xl">
@@ -102,7 +95,6 @@
             </div>
         </div>
     </div>
-    <!-- hero img -->
     <div class="w-fit absolute bottom-0 left-1/2 -translate-x-1/2 -z-20">
         <img src="asset/botak.png" alt="main image">
         <div class="bg-mango w-full h-2/3 absolute bottom-0 -z-10"></div>
@@ -110,7 +102,7 @@
         top-0 left-0 translate-y-2/4 translate-x-[20%] bg-opacity-70 blur-2xl -z-10"></div>
     </div>
 </section>
-
+<!-- NONTON PODCAST -->
 <section class="p-8 sm:p-16 lg:px-30 lg:pt-[98px] lg:pb-[70px] relative">
     <div class="container mx-auto px-4 py-8">
         <div class="flex flex-col md:flex-row justify-between items-center mb-8">
@@ -178,6 +170,7 @@
         </div>
     </div>
 </section>
+<!-- BUDI BAJU BIRU -->
 <section class="p-8 sm:p-16 lg:px-30 lg:pt-[98px] lg:pb-[70px] relative">
 <div class="container mx-auto flex flex-col md:flex-row items-center justify-center min-h-screen p-6">
     <div class="relative w-full md:w-1/2 flex justify-center md:justify-end mb-6 md:mb-0">
@@ -206,6 +199,7 @@
     </div>
 </div>
 </section>
+<!-- BELI PREMIUM -->
 <section class="p-8 sm:p-16 lg:px-30 lg:pt-[98px] lg:pb-[70px] relative bg-gray-900 text-white">
     <div class="container mx-auto px-4 py-16">
         <div class="text-center mb-12">
@@ -214,7 +208,6 @@
                 will end</p>
         </div>
         <div class="flex flex-col md:flex-row justify-center items-center gap-8">
-            <!-- Mini Premium Plan -->
             <div class="bg-white text-gray-900 rounded-lg shadow-lg p-8 w-full md:w-1/3 flex flex-col h-full">
                 <h2 class="text-center text-lg font-semibold mb-4">Mini Premium</h2>
                 <p class="text-center text-gray-500 mb-6">Subscription plan for 1/day premium without ads but limited
@@ -223,7 +216,7 @@
                     <span class="text-4xl font-bold">$15</span><span class="text-lg">/mo</span>
                 </div>
                 <button
-                    class="bg-gray-200 text-gray-900 font-semibold py-2 px-4 rounded-full w-full mb-6 mt-auto">Current
+                    class="bg-gray-200 text-gray-900 font-semibold py-2 px-4 rounded-full w-full mb-6 mt-auto transition-colors duration-300 hover:bg-pink-700 hover:text-white">Current
                     Plan <i class="fas fa-check"></i></button>
                 <ul class="text-gray-700">
                     <li class="flex items-center mb-2"><i class="fas fa-check-circle text-pink-500 mr-2"></i> 6 Times
@@ -234,7 +227,6 @@
                         only</li>
                 </ul>
             </div>
-            <!-- Premium Plan -->
             <div class="bg-white text-gray-900 rounded-lg shadow-lg p-8 w-full md:w-1/3 flex flex-col h-full">
                 <h2 class="text-center text-lg font-semibold mb-4">Premium Plan</h2>
                 <p class="text-center text-gray-500 mb-6">Subscription plan for 30 day premium without ads and for free
@@ -242,7 +234,7 @@
                 <div class="text-center mb-6">
                     <span class="text-4xl font-bold">$35</span><span class="text-lg">/mo</span>
                 </div>
-                <button class="bg-pink-500 text-white font-semibold py-2 px-4 rounded-full w-full mb-6 mt-auto">Try for
+                <button class="bg-pink-500 text-white font-semibold py-2 px-4 rounded-full w-full mb-6 mt-auto transition-colors duration-300 hover:bg-pink-700">Try for
                     Free <i class="fas fa-arrow-right"></i></button>
                 <ul class="text-gray-700">
                     <li class="flex items-center mb-2"><i class="fas fa-check-circle text-pink-500 mr-2"></i> 12 Times
@@ -253,7 +245,6 @@
                         content</li>
                 </ul>
             </div>
-            <!-- Exclusive Plan -->
             <div class="bg-white text-gray-900 rounded-lg shadow-lg p-8 w-full md:w-1/3 flex flex-col h-full">
                 <h2 class="text-center text-lg font-semibold mb-4">Exclusive Plan</h2>
                 <p class="text-center text-gray-500 mb-6">Subscription plan for 30 day premium without ads and unlimited
@@ -261,7 +252,7 @@
                 <div class="text-center mb-6">
                     <span class="text-4xl font-bold">$45</span><span class="text-lg">/mo</span>
                 </div>
-                <button class="bg-pink-500 text-white font-semibold py-2 px-4 rounded-full w-full mb-6 mt-auto">Try for
+                <button class="bg-pink-500 text-white font-semibold py-2 px-4 rounded-full w-full mb-6 mt-auto transition-colors duration-300 hover:bg-pink-700">Try for
                     Free <i class="fas fa-arrow-right"></i></button>
                 <ul class="text-gray-700">
                     <li class="flex items-center mb-2"><i class="fas fa-check-circle text-pink-500 mr-2"></i> Unlimited
@@ -275,6 +266,7 @@
         </div>
     </div>
 </section>
+<!-- SUBREK! -->
 <section class="lg:px-30 lg:pt-[98px] lg:pb-[70px] relative bg-gray-900 text-white">
     <div class="flex flex-col items-center justify-center min-h-screen">
         <h1 class="text-3xl md:text-5xl font-bold text-center">
@@ -291,6 +283,7 @@
         </div>
     </div>
 </section>
+<!-- FOOTER -->
 <footer class="bg-gray-900 text-white py-8 px-10">
     <div class="container mx-auto px-4">
         <div class="flex flex-col md:flex-row justify-between items-center">
@@ -303,11 +296,11 @@
                 </svg>
             </div>
             <nav class="flex space-x-4">
-                <a class="hover:text-pink-600" href="#">Home</a>
-                <a class="hover:text-pink-600" href="#">About</a>
-                <a class="hover:text-pink-600" href="#">Category</a>
-                <a class="hover:text-pink-600" href="#">Trending</a>
-                <a class="hover:text-pink-600" href="#">Events</a>
+                <a class="hover:text-yellow-300" href="#">Home</a>
+                <a class="hover:text-yellow-300" href="#">About</a>
+                <a class="hover:text-yellow-300" href="#">Category</a>
+                <a class="hover:text-yellow-300" href="#">Trending</a>
+                <a class="hover:text-yellow-300" href="#">Events</a>
             </nav>
         </div>
         <div class="mt-2 text-center text-gray-500">
