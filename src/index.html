@@ -95,7 +95,7 @@
             </div>
         </div>
     </div>
-    <div class="w-fit absolute bottom-0 left-1/2 -translate-x-1/2 -z-20">
+    <div class="w-fit hidden lg:flex absolute bottom-0 left-1/2 -translate-x-1/2 -z-20">
         <img src="asset/botak.png" alt="main image">
         <div class="bg-mango w-full h-2/3 absolute bottom-0 -z-10"></div>
         <div class="bg-mango w-3/4 aspect-square rounded-full absolute 
@@ -171,21 +171,21 @@
     </div>
 </section>
 <!-- BUDI BAJU BIRU -->
-<section class="p-8 sm:p-16 lg:px-30 lg:pt-[98px] lg:pb-[70px] relative">
+<section class="p-8 sm:p-16 lg:px-30 lg:pt-[98px] lg:pb-[70px] relative"></section>
 <div class="container mx-auto flex flex-col md:flex-row items-center justify-center min-h-screen p-6">
     <div class="relative w-full md:w-1/2 flex justify-center md:justify-end mb-6 md:mb-0">
-        <div class="absolute inset-20 flex items-center justify-center">
+        <div class="absolute inset-0 flex items-center justify-center">
             <svg xmlns="http://www.w3.org/2000/svg" width="400" height="352" viewBox="0 0 497 352" fill="none">
                 <path
                     d="M0 8.80206C0 3.42838 5.19249 -0.417179 10.3327 1.14969L491.333 147.772C494.699 148.799 497 151.905 497 155.425V344C497 348.418 493.418 352 489 352H8.00001C3.58173 352 0 348.418 0 344V8.80206Z"
                     fill="#FED049" />
             </svg>
         </div>
-        <div class="absolute -inset-96 flex items-center justify-center">
+        <div class="absolute inset-0 flex items-center justify-center">
             <img class="" width="400" src="asset/ellipse3020.png" alt="">
         </div>
-        <div class="absolute -inset-20 flex items-center justify-center z-10">
-            <img alt="budi" class="" height="300" src="asset/budi.png" width="300" />
+        <div class="relative z-10">
+            <img alt="budi" class="" height="300" src="asset/budi.png" width="250" />
         </div>
     </div>
     <div class="w-full md:w-1/2 text-center md:text-left">
@@ -277,7 +277,7 @@
         </p>
         <div class="flex">
             <input class="p-3 rounded-l-lg text-gray-900" placeholder="Your Email Address" type="email" />
-            <button class="bg-pink-600 text-white p-3 rounded-r-lg">
+            <button class="bg-pink-600 text-white p-3 rounded-r-lg transition-colors duration-300 hover:bg-pink-700">
                 Subscribe
             </button>
         </div>
